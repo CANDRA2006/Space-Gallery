@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Gallery - Galeri Fotografi Alam Semesta</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🌌 Cosmic Gallery</div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" onclick="showSection('home')" class="active">Beranda</a></li>
+                <li><a href="#" onclick="showSection('gallery')">Galeri</a></li>
+                <li><a href="#" onclick="showSection('about')">Tentang</a></li>
+                <li><a href="#" onclick="showSection('contact')">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <!-- HOME SECTION -->
+        <article id="home" class="section active">
+            <div class="container">
+                <div class="home-section">
+                    <div style="text-align: center;">
+                        <img src="Profile.jpg" alt="Candra Sya'bana Putra Gunadi" class="profile-image-large">
+                    </div>
+                    <div class="profile-card">
+                        <div class="profile-info">
+                            <h1>Candra Sya'bana Putra Gunadi</h1>
+                            <h2>Fotografer Astronomi & Pecinta Alam Semesta</h2>
+                            <p>Selamat datang di galeri pribadi saya! Saya adalah seorang fotografer astronomi yang memiliki passion mendalam terhadap keindahan alam semesta. Melalui lensa kamera, saya berusaha menangkap momen-momen spektakuler dari langit malam dan berbagai objek kosmik.</p>
+                            <p>Perjalanan saya dalam dunia astrofotografi dimulai sejak 2018, ketika saya pertama kali melihat Galaksi Andromeda melalui teleskop. Sejak saat itu, saya terpesona dan memutuskan untuk mendokumentasikan keindahan langit malam.</p>
+                            <p>Di galeri ini, Anda akan menemukan koleksi foto-foto planet di tata surya kita, galaksi-galaksi jauh, nebula yang menakjubkan, dan berbagai objek langit lainnya yang telah saya dokumentasikan selama bertahun-tahun.</p>
+                            
+                            <div class="profile-stats">
+                                <div class="stat-box">
+                                    <h3>30+</h3>
+                                    <p>Foto Astronomi</p>
+                                </div>
+                                <div class="stat-box">
+                                    <h3>100+</h3>
+                                    <p>Observasi</p>
+                                </div>
+                            </div>
+
+                            <div class="social-icons">
+                                <a href="#">📷</a>
+                                <a href="#">🐦</a>
+                                <a href="#">📘</a>
+                                <a href="#">✉️</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- GALLERY SECTION -->
+        <article id="gallery" class="section">
+            <div class="container">
+                <div class="gallery-header">
+                    <h1>Galeri Fotografi Alam Semesta</h1>
+                    <p>Koleksi foto-foto menakjubkan dari berbagai objek langit</p>
+                </div>
+
+                <div class="filter-section">
+                    <div class="dropdown" id="filterDropdown">
+                        <button class="dropdown-btn" onclick="toggleDropdown()">
+                            Filter Kategori ▼
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#" onclick="filterGallery('all')">Semua</a>
+                            <a href="#" onclick="filterGallery('planet')">Planet Tata Surya</a>
+                            <a href="#" onclick="filterGallery('galaksi')">Galaksi</a>
+                            <a href="#" onclick="filterGallery('nebula')">Nebula</a>
+                            <a href="#" onclick="filterGallery('lainnya')">Lainnya</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery" id="galleryContainer"></div>
+            </div>
+        </article>
+
+        <!-- ABOUT SECTION -->
+        <article id="about" class="section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-main">
+                        <h1>Tentang Cosmic Gallery</h1>
+                        <p>Cosmic Gallery adalah platform galeri fotografi yang didedikasikan untuk menampilkan keindahan alam semesta melalui lensa kamera. Galeri ini merupakan hasil dari passion dan dedikasi saya, Candra Sya'bana Putra Gunadi, dalam dunia astrofotografi.</p>
+                        
+                        <h2>Sumber Foto</h2>
+                        <p>Sebagian besar foto diambil dari wikipeda dengan lokasi-lokasi dengan polusi cahaya minimal, seperti dataran tinggi dan area pedesaan yang jauh dari penerangan kota. Hal ini penting untuk mendapatkan hasil foto yang jernih dan detail.</p>
+                    </div>
+                    
+                    <aside class="about-sidebar">
+                        <img src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=600" alt="Observatorium">
+                        <h3>Kategori Foto</h3>
+                        <ul>
+                            <li>🪐 Planet Tata Surya (8 Planet)</li>
+                            <li>🌌 Galaksi Spiral & Elips</li>
+                            <li>☁️ Nebula Emisi & Refleksi</li>
+                            <li>⭐ Gugus Bintang</li>
+                            <li>🌙 Satelit Alami</li>
+                        </ul>
+                        
+                        <h3>Statistik Galeri</h3>
+                        <ul>
+                            <li>Total Foto: <strong>20+</strong></li>
+                            <li>Kategori: <strong>5</strong></li>
+                            <li>Planet Lengkap: <strong>8</strong></li>
+                            <li>Update Terakhir: <strong>2025</strong></li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </article>
+
+        <!-- CONTACT SECTION -->
+        <article id="contact" class="section">
+            <div class="container">
+                <div class="contact-container">
+                    <div class="contact-form">
+                        <h1>Hubungi Saya</h1>
+                        <form onsubmit="handleSubmit(event)">
+                            <div class="form-group">
+                                <label for="name">Nama Lengkap</label>
+                                <input type="text" id="name" required placeholder="Masukkan nama Anda">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" required placeholder="email@example.com">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subjek</label>
+                                <input type="text" id="subject" required placeholder="Topik pesan Anda">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Pesan</label>
+                                <textarea id="message" required placeholder="Tulis pesan Anda di sini..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn">Kirim Pesan</button>
+                        </form>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <h2>📧 Email</h2>
+                            <p><a href="mailto:chandraq818@gmail.com">chandraq818@gmail.com</a></p>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <h2>📱 Media Sosial</h2>
+                            <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/404.cndr" target="_blank">@404.cndr</a></p>
+                            <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/candra-sya-bana-putra-gunadi-088048353" target="_blank">Candra</a></p>
+                            <p><i class="fab fa-tiktok"></i> <a href="https://www.tiktok.com/@_cndrsy?is_from_webapp=1&sender_device=pc" target="_blank">404 CNDR</a></p>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <h2>📍 Lokasi</h2>
+                            <p>Pekalongan, Indonesia</p>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <h2>⏰ Waktu Respons</h2>
+                            <p>Saya biasanya merespons pesan dalam 1-2 hari kerja</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Cosmic Gallery - Candra Sya'bana Putra Gunadi | All right reserved</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
