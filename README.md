@@ -2,8 +2,6 @@
 
 Website hasil latihan membuat galeri fotografi alam semesta yang menampilkan keindahan objek-objek langit seperti planet, galaksi, nebula, dan fenomena astronomi lainnya.
 
-![Cosmic Gallery Banner](assets/images/banner.png)
-
 ## 📖 Deskripsi
 
 Cosmic Gallery adalah platform galeri fotografi yang didedikasikan untuk menampilkan keindahan alam semesta. Website ini menampilkan koleksi foto-foto spektakuler dari berbagai objek langit termasuk:
