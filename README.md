@@ -72,10 +72,10 @@ cosmic-gallery/
 
 ```bash
 # Clone repository
-git clone https://github.com/username/cosmic-gallery.git
+git clone https://github.com/candra2006/space-gallery.git
 
 # Masuk ke folder project
-cd cosmic-gallery
+cd space-gallery
 
 # Buka index.html di browser
 ```
@@ -162,9 +162,6 @@ Website ini fully responsive dengan breakpoints:
 - 💼 LinkedIn: [Candra Sya'bana Putra Gunadi](https://www.linkedin.com/in/candra-sya-bana-putra-gunadi-088048353)
 - 🎵 TikTok: [@_cndrsy](https://www.tiktok.com/@_cndrsy?is_from_webapp=1&sender_device=pc)
 
-## 📄 Lisensi
-
-© 2025 Cosmic Gallery - Candra Sya'bana Putra Gunadi. All rights reserved.
 
 ## 🙏 Kredit
 
