@@ -1,0 +1,20 @@
+{
+  "name": "space-gallery",
+  "version": "1.0.0",
+  "description": "Website hasil latihan membuat galeri fotografi alam semesta yang menampilkan keindahan objek-objek langit seperti planet, galaksi, nebula, dan fenomena astronomi lainnya.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CANDRA2006/Space-Gallery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CANDRA2006/Space-Gallery/issues"
+  },
+  "homepage": "https://github.com/CANDRA2006/Space-Gallery#readme"
+}
